@@ -42,3 +42,8 @@ padding:10px;
 width:350px;
 font-size:40px;
 }
+#add{ background-color:#09148A;}
+#subtract{ background-color:#09148A;}
+#multiply{ background-color:#09148A;}
+#clear{ background-color:#09148A;}
+
