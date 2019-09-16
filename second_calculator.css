@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+input{
+	outline:none;
+	border:none;
+	cursor: pointer;
+	color: #000000;
+	background-color: #D8D7D7;
+	width: 85px;
+	height:90px;
+	font-size:30px;
+	padding-right:10px;
+	padding-bottom: 5px;
+	
+	margin: 18.1px;
+	
+
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-top: 30px; (30)
+	}
+
+input:hover{
+background-color: #FFF44E;
+}
+#top_display{ display:block;
+background-color:;
+margin-bottom:20px;
+
+width:50px;
+}
+.inputField{ padding-left:0px;
+margin-bottom:50px;
+}
+
+body{background-color: #D8D7D7;
+padding:0px;
+margin: 30px;
+border-radius: 10px;
+}
+form{
+display:grid;
+justify-content: center;
+align-items: center;
+height:700px;
+
+
+}
+#display{margin:0px;
+padding:0px;
+width:439px;
+height:140px;
+font-size:80px;
+text-align: right;
+background-color:#717171;
+margin-left:-10px;
+}
+#add{ background-color:#09148A;
+font-size:35px;
+color:white;
+}
+#subtract{ background-color:#09148A;
+font-size:35px;
+color:white;}
+#multiply{ background-color:#09148A;
+font-size:35px;
+color:white;}
+#clear{ background-color:#09148A;
+margin-left:344px;
+float:right;
+font-size:35px;
+color:white;
+}
+
+#divide{background-color:#09148A; 
+font-size:35px;
+color:white;}
+.inputRow{ margin:-50px;padding:0;
+	
+}
+
+#equals { border-style: solid;
+border-color:blue;
+border-radius: 35px;}
+
+	.aFixedElement{
+position:fixed;
+top: 0px;
+left:60px;
+background: yellow;
+padding: 10px;
+margin:0px;
+width: 70px;
+		height:870px;}
+.box1{
+position:fixed;
+top: 0px;
+left:29px;
+background-color:darkblue;
+padding: 10px;
+margin:0px;
+width: 20px;
+		height:870px;
+	
+}
+.box2{position:fixed;
+top: 0px;
+right:69px;
+background-color:darkblue;
+padding: 10px;
+margin:0px;
+width: 30px;
+		height:870px;
+	
+	
+}
+.box3{position:fixed;
+top: 150px;
+right:60px;
+background: yellow;
+padding: 10px;
+margin:0px;
+width: 10px;
+		height:770px;
+	
+}
+.box4{
+position:fixed;
+left:0px;
+bottom:10px;
+background:#09148A;
+padding: 10px;
+margin:0px;
+width: 915px;
+		height:20px;
+	
+}
+
+
+
