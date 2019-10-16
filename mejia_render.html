@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>mejia_render</title>
+	
+<style>
+	.circle {
+      width: 350px;
+      height: 370px;
+      background: gray;
+      border-radius: 50%;
+	  outline-color: black;
+	  border: 4px solid black;
+	  position:absolute;
+	  top:0px;
+	  margin-left: 500px;
+	  margin-top:125px
+		 
+    }
+	.circle2 {
+	width:232px;
+	height:189px;
+	background:#A7A7A7;
+	border-radius:50%;
+	margin-top: 260px;
+	margin-left:560px;
+	position: absolute;
+	}
+	.nose{
+	width:120px;
+	height:60px;
+	background: #444444;
+	border-radius: 50%;
+	position: absolute;
+	margin-top:280px;
+	margin-left:615px;
+	animation-name: nose;
+	animation-duration: 3s;
+	animation-delay:2s;
+	animation-iteration-count: infinite;
+	}
+	@-webkit-keyframes nose {
+		0% {top: 0px;
+		left: 0px;}
+		25%{ top:8px;
+		left:5px;}
+		50%{top:0px;
+		left:0px}
+		75%{ top:0px;
+		left:0px;}
+		100%{top:0px;
+		left:0px;}
+		}
+	.nostral{
+	width:18px;
+	height:32px;
+	background: black;
+	border-radius: 40%;
+	position: absolute;
+	margin-top:290px;
+	margin-left: 635px;
+	animation-name: nostral;
+	animation-duration: 3s;
+	animation-delay:2s;
+	animation-iteration-count: infinite;
+	}
+	@-webkit-keyframes nostral {
+		0% {top: 0px;
+		left: 0px;}
+		25%{ top:8px;
+		left:5px;}
+		50%{top:0px;
+		left:0px}
+		75%{ top:0px;
+		left:0px;}
+		100%{top:0px;
+		left:0px;}
+		}
+	.rightnostral{
+	width:18px;
+	height:32px;
+	background: black;
+	border-radius: 40%;
+	position: absolute;
+	margin-top:290px;
+	margin-left: 694px;
+	animation-name: rightnostral;
+	animation-duration: 3s;
+	animation-delay:2s;
+	animation-iteration-count: infinite;
+	}
+	@-webkit-keyframes rightnostral {
+		0% {top: 0px;
+		left: 0px;}
+		25%{ top:8px;
+		left:5px;}
+		50%{top:0px;
+		left:0px}
+		75%{ top:0px;
+		left:0px;}
+		100%{top:0px;
+		left:0px;}
+		}
+
+	.lefteye{
+		width:48px;
+	height:68px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+	margin-top:235px;
+	margin-left: 545px;
+	}
+	.righteye{
+	width:48px;
+	height:68px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+	margin-top:235px;
+	margin-left:760px;
+	}
+	.leftoutline{
+	width:50px;
+	height:70px;
+	border: 2px solid black;
+	border-radius: 50%;
+	position: absolute;
+	margin-top:232px;
+	margin-left: 542px;
+		
+	}
+	.rightoutline {
+	width:50px;
+	height:70px;
+	border: 2px solid black;
+	border-radius: 50%;
+	position: absolute;
+	margin-top:232px;
+	margin-left: 757px;
+	}
+	.rightpupil{
+	width:15px;
+	height:15px;
+	background: white;
+	position: absolute;
+	border-radius:50%;
+	margin-top:239px;
+	margin-left:555px;
+	}
+	.leftpupil{
+	width:15px;
+	height:15px;
+	background: white;
+	position: absolute;
+	border-radius:50%;
+	margin-top:239px;
+	margin-left:770px;
+	}
+	
+	.leftear{
+    margin-top:115px;
+    margin-left:470px;
+	background-color:black;
+	position: absolute;
+	
+
+	
+
+}
+.leftear:before,
+.leftear:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+	
+}
+.leftear,
+.leftear:before,
+.leftear:after {
+	width:  80px;
+	height: 80px;
+	border-top-right-radius: 35%;
+	
+}
+
+.leftear {
+	transform: rotate(290deg) skewX(-25deg) scale(1,.504);
+}
+.leftear:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(2.414,.907) translate(0,-50%);
+}
+.leftear:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.907,2.414) translate(50%);
+    }
+	
+.triangle {
+	background-color: black;
+	margin-top: 110px;
+	margin-left: 770px;
+	position: absolute;
+	text-align: right;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  80px;
+	height: 80px;
+	border-top-right-radius: 35%;
+}
+
+.triangle {
+	transform: rotate(15deg) skewX(-30deg) scale(1,.666);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-35deg) scale(1.914,.907) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.907,1.914) translate(50%);
+}
+.vl {
+  border-left: 6px solid black;
+  height: 50px;
+  margin-left:671px;
+  margin-top:352px;
+  position: absolute;
+border-radius: 40%;
+}
+.mouth { 
+	border-left: 6px solid black;
+    height: 60px;
+    margin-left:690px;
+    margin-top:390px;
+	position: absolute;
+	transform: rotate(135deg) ;
+	border-radius: 80%;
+	}
+	.mouthside{
+	border-left: 6px solid black;
+    height: 60px;
+    margin-left:655px;
+    margin-top:390px;
+	position: absolute;
+	transform: rotate(35deg) ;
+	border-radius: 80%;
+		
+	}
+	.tounge {
+		width:28px;
+	height:52px;
+	background: #D76594;
+	border-radius: 40%;
+	position: absolute;
+	margin-top:405px;
+	margin-left: 658px;
+		animation-name: tounge;
+	animation-duration: 1s;
+	animation-delay:0s;
+	animation-iteration-count: infinite;
+	}
+	@-webkit-keyframes tounge {
+		0% {top: 0px;
+		left: 10px;}
+		25%{ top:0px;
+		left:10px;}
+		50%{top:10px;
+		left:10px}
+		75%{ top:0px;
+		left:10px;}
+		100%{top:0px;
+			left:10px;} }
+	
+		
+		
+ 
+	
+	
+	</style>
+ 
+	
+
+</head>
+
+<body>
+
+<div class="circle"></div>
+<div class="circle2"></div>
+<div class="nose"></div>
+<div class="nostral"></div>
+<div class="rightnostral"></div>
+<div class="lefteye"></div>
+<div class="righteye"></div>
+<div class="leftoutline"></div>
+<div class="rightoutline"></div>
+<div class="rightpupil"></div>
+<div class="leftpupil"></div>
+<div class="mouth"></div>
+<div class="vl"></div>
+<div class="mouthside"></div>
+<div class="tounge"></div>
+<div class="leftear"></div>
+<div class="triangle"></div>
+<body style="background-color:#E86264;">
+
+</body>
+</html>
